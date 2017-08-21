@@ -1,7 +1,7 @@
 class I386JosElfBinutils < Formula
   homepage "http://pdos.csail.mit.edu/6.828/2014/tools.html"
   url "http://ftpmirror.gnu.org/binutils/binutils-2.21.1.tar.bz2"
-  sha256 "2332b2a5a321b57508b9031354a8503af6fdfb868b8c1748d33028d100a8b67e"
+  sha256 "cdecfa69f02aa7b05fbcdf678e33137151f361313b2f3e48aba925f64eabf654"
 
   def install
     system "./configure", "--prefix=#{prefix}",
