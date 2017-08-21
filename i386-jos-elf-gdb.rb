@@ -1,7 +1,7 @@
 class I386JosElfGdb < Formula
   homepage "http://pdos.csail.mit.edu/6.828/2014/tools.html"
   url "http://ftpmirror.gnu.org/gdb/gdb-7.3.1.tar.bz2"
-  sha1 "e57f2c7f93536ef54fab728eb733bf2c36550718"
+  sha256 "2332b2a5a321b57508b9031354a8503af6fdfb868b8c1748d33028d100a8b67e"
 
   def install
     system "./configure", "--prefix=#{prefix}",
