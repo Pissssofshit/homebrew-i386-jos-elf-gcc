@@ -1,6 +1,6 @@
 class I386JosElfGcc < Formula
   homepage "http://pdos.csail.mit.edu/6.828/2014/tools.html"
-  url "http://mirrors.ustc.edu.cn/gnu/gcc/gcc-7.1.0/gcc-7.1.0.tar.bz2"
+  url "http://mirrors.ustc.edu.cn/gnu/gcc/gcc-6.3.0/gcc-6.3.0.tar.bz2"
   sha256 "8a8136c235f64c6fef69cac0d73a46a1a09bb250776a050aec8f9fc880bebc17"
 
   depends_on 'gmp'
